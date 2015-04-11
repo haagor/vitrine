@@ -1,0 +1,57 @@
+{"vitrine": {
+  "me": {
+    "information": {
+      "nom": "PARIS",
+      "prenom": "Simon",
+      "telephone" : "+33 6 81 48 02 84",
+      "mail": "sim.paris@wanadoo.fr",
+      "adresse": "Villeneuve-Loubet 06, France"
+    },
+    "profil": ["J’ai suivi deux années de parcours universitaire pour déboucher sur l’école d’ingénieur Polytech Nice. J’ai eu le plaisir d’y développer mes compétences relatives à l'informatique, la gestion de projet, le travail en équipe.",
+               "En parallèle de ces années d’études, j’ai développé d’autres compétences relatives au domaine musical. Mon dernier projet dans ce domaine, était l’écriture d’une partition pour orchestre, constituant par la suite, la bande son d’un film d’animation 3D d’environ 4 minutes.",
+               "J’ai l’habitude de prévoir les risques, planifier mon emploi du temps ou mes projets. j’ai néanmoins eu l’occasion d’exercer mes qualités d’adaptation dans mes expériences professionnelles d’animation de séjour de ski, à l’étranger."
+              ],
+    "experiences": [
+      {
+        "intitule": "Personnel de service, Ligue de l’enseignement",
+        "date": "2012-2013-2014",
+        "lieu": "Bollène Vésubie, France",
+        "detail1": "Responsable de l’entretien, du nettoyage, des locaux du centre de séjour,  accueillant une centaine d’enfants durant 45 jours.",
+        "detail2": "En charge des cuisines; élaboration des repas matin, midi et soir."
+      },
+      {
+        "intitule": "Encadrant/Animateur de séjour de ski, Ligue de l’enseignement",
+        "date": "2013-2014-2015",
+        "lieu": "Lurizia, Italie",
+        "detail1": "Encadrement de groupe d’enfants (10 en moyenne) sur les stations de ski.",
+        "detail2": "Animation et prise en charge des enfants 24/24h durant 7 jours."
+      }
+    ],
+    "etudes": [
+      {
+        "intitule": "Licence 1 informatique",
+        "date": "2012-2013",
+        "lieu": "Université de Nice Sophia-Antipolis"
+      },
+      {
+        "intitule": "Licence 2 informatique",
+        "date": "2013-2014",
+        "lieu": "Université de Nice Sophia-Antipolis"
+      },
+      {
+        "intitule": "Ingenieur SI3",
+        "date": "2014-2015",
+        "lieu": "Polytech Nice"
+      }
+    ],
+    "competences": {
+      "language_informatique" : ["Python", "Java", "JSON", "Scheme", "Netlogo", "html5", "CSS", "JavaScript", "SQL"],
+      "divers": ["gestion de projet"],
+      "musique": ["musique theorique", "composition musicale", "pratique du piano"]
+    },
+    "reference": ["http://www.polytechnice.fr", "http://unice.fr"]
+
+}}}
+
+
+

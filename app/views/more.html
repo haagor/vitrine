@@ -1,0 +1,71 @@
+
+  <div class="jumbotron morePage">
+
+    <h1>
+      Expériences
+    </h1>
+
+      <div class="top" ng-repeat="i in info.experiences | reverse">
+        <li>
+          {{i.intitule}} {{i.date}}
+        </li>
+        <p>
+          {{i.lieu}}
+        </p>
+        <p>
+          {{i.detail1}}
+        </p>
+        <p>
+          {{i.detail2}}
+        </p>
+      </div>
+
+    <h1>
+      Etudes
+    </h1>
+
+    <div class="top" ng-repeat="i in info.etudes | reverse">
+      <p>
+        {{i.intitule}} {{i.date}}
+      </p>
+      <p>
+        {{i.lieu}}
+      </p>
+    </div>
+
+    <h1>
+      Compétences
+    </h1>
+
+      <h2>
+        Langages informatiques
+      </h2>
+
+        <div class="list" ng-repeat="i in info.competences.language_informatique">
+          <p>
+            {{i}}
+          </p>
+        </div>
+
+      <h2>
+        Divers
+      </h2>
+
+        <div class="list" ng-repeat="i in info.competences.divers">
+          <p>
+          {{i}}
+          </p>
+        </div>
+
+      <h2>
+        Musique
+      </h2>
+
+      <div class="list" ng-repeat="i in info.competences.musique">
+        <p>
+          {{i}}
+        </p>
+      </div>
+
+
+</div>
